@@ -1,0 +1,121 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+body,html {
+		margin: 0;
+		font-family: 'Lato', sans-serif;
+
+}
+
+header {
+	width: 100%;
+	background: transparent url("images/stormtroopers_legos_desktop_1920x1080_hd-wallpaper-1168634.jpg");
+	text-align: center;
+	padding: 100px 0 170px 0;
+	margin: 0 auto;
+}
+/*hakbar.com title*/
+.center h1 {
+	font-size: 60px;
+	font-weight: 100;
+	color: #FF6633;
+	text-shadow: 2px 2px rgba(7,7,7,0.03);
+	margin: 20px 0;
+}
+/*hello my name is*/
+.center p {
+	font-size: 30px;
+	font-weight: 100;
+	color: #FFF;
+	text-shadow: 2px 2px rgba(7,7,7,0.03);
+	
+}
+/*darthvader quote*/
+.center blockquote {
+	font-size: 25px;
+	font-weight: 100;
+	color: #FFF;
+	text-shadow: 2px 2px rgba(7,7,7,0.69);
+	margin: 10px 0px 225px;
+}
+
+/*keywords chg color*/
+.center p span {
+	font-size: 30px;
+	font-weight: 100;
+	color: #FF6633;
+	text-shadow: 2px 2px rgba(7,7,7,0.03);
+	/*margin: 10px -50px 225px;*/
+}
+
+/*stormtrooper popping out of keyboard*/
+.banner {
+		background:transparent url("images/popupkey.jpg");
+		width: 100%;
+		text-align: center;
+		margin-top: 0px;
+		height: 100%;
+		padding: 200px;
+		margin: 0 auto;
+		color: #FFF;
+		
+}
+/*keywords chg color*/
+.banner span {
+	color: #FF6633;
+}
+
+/*elitesoldiers*/
+.banner p{
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px rgba(0,0,0,0.51);
+}
+
+/*boxes for pics*/
+.picBox {margin-top: 200px;
+		margin-bottom: -150px;
+}
+
+.picBox img {
+	border-radius: 50%;
+	width: 14%;
+	margin: 5px 30px;
+}
+
+/*footer social icons*/
+.social {
+	width: 40px;
+	display: inline-block;
+	text-decoration: none;
+	margin: 45px;
+	-webkit-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s; 
+	transition: all 0.3s; 
+	position: relative;
+	top:0;
+}
+
+.social:hover {
+	-webkit-transform: scale(1.2);
+	top: -15px;
+	
+}
+
+.social img {
+	width: 100%;
+
+}
+
+/*footer pic*/
+.footer {
+	background:url("images/chase.jpg");
+	text-align: center;
+	padding: 300px;
+	background-repeat:no-repeat;
+	background-position:center;
+
+}
